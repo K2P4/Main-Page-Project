@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor Mark Project</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./index.css">
+
+
+</head>
+<body>
+
+  <div class=" m-lg-3 m-0 container-fluid ">
+    <div class="p-0 p-lg-4">
+    <Header>
+    <div class="">
+      <nav class="navbar navbar-expand-lg bg-white d-flex flex-row align-items-center justify-content-between">
+        <h1 class="brand fw-bold   navbar-brand">W.</h1>
+
+
+        <ul class="headernav  d-xl-flex d-none navbar-nav text-dark-50 me-5 ">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item  ">
+          <a class="nav-link " href="#">New</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Popular</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Trending</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Categories</a>
+        </li>
+        </ul>
+
+        <div class="d-xl-none d-lg-none d-inline">
+           <button class="btn navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="bi bi-list px-xl-3 px-0 py-xl-2 py-0 fs-2 text-dark rounded-1"></span>
+        </button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header mt-2 mb-5 d-flex justify-content-between">
+        <span></span>
+        <button type="button" class="fs-2 text-end text-dark btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav text-dark  fw-bold justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">New</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Popular</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trending</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categories</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+        </div>
+
+      </nav>
+    </div>
+    </Header>
+
+    <main>
+      <section class="row d-flex align-items-start flex-lg-row flex-xl-row flex-column">
+        <div class="col-xl-8 col-lg-8 col-12 h-100">
+          <img  class="w-100 phoneImg rounded-1 shadow" src="./assets/images/image-web-3-desktop.jpg" alt="">
+
+          <div class="row gap-1 d-flex align-items-center  align-items-sm-start  my-4 ">
+            <div class="col-xl-6 col-lg-6 col-sm-12">
+              <h1 style="font-weight: bolder;" class=" lh-1 phoneText text-dark">The Bright Future of Web 3.0?</h1>
+            </div>
+            <div class="col">
+              <p class="text-muted lh-2  mt-3 mt-lg-0 mt-xl-0 accordion-body">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+
+              <button style="letter-spacing: 5px;" class="mt-2 fw-light phonebutWidth rounded-0 px-3 btn btn-danger  text-dark-50">READ MORE</button>
+            </div>
+          </div>
+
+
+
+          
+        </div>
+
+        <div class="col-xl-4  col-lg-4 col-sm-12 h-100 rounded-0" >
+          <div class=" card border-0  ">
+            <div class=" card-body cardColor text-white">
+              <h2 class="mt-2 mb-4 card-title text-warning" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" >New</h2>
+
+              <div class="my-3">
+                <h6 class="mb-3 fs-5 fw-bold">Hydrogen VS Electric Cars</h6>
+                <p class="text-white-50 mb-4">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                <hr>
+              </div>
+
+              <div class="my-3">
+                <h6 class="mb-3 fs-5 fw-bold">The Downsides of AI Artistry</h6>
+                <p class="text-white-50 mb-4">What are the possible adverse effects of on-demand AI image generation?</p>
+                <hr>
+              </div>
+
+
+              <div class="mt-4 mb-5">
+                <h6 class="mb-3 fs-5 fw-bold">Is VC Funding Drying Up?</h6>
+                <p class="text-white-50 mb-4   fs-6 ">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                <hr>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <footer class=" my-5 ">
+      <div class="row d-flex align-items-center gap-2 flex-row">
+        <div class="col">
+          <div class=" d-flex align-items-start">
+          <div class=""><img class="boxImg " src="./assets/images/image-retro-pcs.jpg" alt=""></div>
+
+
+          <div class=" ms-3">
+            <h2 class="footerStyle fw-bold text-secondary">02</h2>
+            <h5  class="footerStyle fw-bold mt-3 mb-3">Top 10 Laptops of 2022</h5>
+
+            <p style="font-size: 14px;" class=" lh-2 text-muted">  What happens when old PCs are given modern upgrades?</p>
+
+          </div>
+          </div>  
+
+        
+
+        </div>
+
+        
+        <div class="col">
+          <div class="d-flex align-items-start d-flex align-items-start">
+          <div class=""><img class="boxImg " src="./assets/images/image-gaming-growth.jpg" alt=""></div>
+
+
+          <div class=" ms-3">
+            <h2 class="footerStyle fw-bold text-secondary">02</h2>
+            <h5  class="footerStyle fw-bold mt-3 mb-3 ">Top 10 Laptops of 2022</h5>
+
+            <p style="font-size: 14px;" class=" lh-2 text-muted">  Our best picks for various needs and budgets.</p>
+
+          </div>
+          </div>
+
+        </div>
+
+          <div class="col d-flex align-items-start ">
+          <div class=""><img class="boxImg" src="./assets/images/image-top-laptops.jpg" alt=""></div>
+
+
+          <div class=" ms-3">
+            <h2 class="footerStyle fw-bold text-secondary">03</h2>
+            <h5  class="footerStyle fw-bold mt-3 mb-3">The Growth of Gaming</h5>
+
+            <p style="font-size: 14px;" class=" lh-2 text-muted">  How the pandemic has sparked fresh opportunities.</p>
+          </div>
+
+        </div>
+      </div>
+
+
+  
+
+
+    </footer>
+    </div>
+  </div>
+
+  <!-- Home
+  New
+  Popular
+  Trending
+  Categories
+
+  The Bright Future of Web 3.0?
+
+  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+  But is it really fulfilling its promise?
+
+  Read more
+
+  New 
+
+  Hydrogen VS Electric Cars
+  Will hydrogen-fueled cars ever catch up to EVs?
+
+  The Downsides of AI Artistry
+  What are the possible adverse effects of on-demand AI image generation?
+
+  Is VC Funding Drying Up?
+  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+
+  01
+  Reviving Retro PCs
+  What happens when old PCs are given modern upgrades?
+
+  02
+  Top 10 Laptops of 2022
+  Our best picks for various needs and budgets.
+
+  03
+  The Growth of Gaming
+  How the pandemic has sparked fresh opportunities.
+   -->
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
